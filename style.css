@@ -105,3 +105,11 @@ h6 {
 	  border-color: #ffad00!important;
 	  color:#fff!important;
   }
+
+  .btn{
+	  padding-right: 3rem;
+  }
+
+  #b1{
+    white-space: normal;
+  }
