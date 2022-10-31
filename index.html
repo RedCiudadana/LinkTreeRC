@@ -1,146 +1,78 @@
 <!DOCTYPE html>
 <html lang="es" >
-<head>
-  <meta charset="UTF-8">
-  <title>Red Ciudadana</title>
-  <link rel="stylesheet" href="./style.css">
-  <link  rel="icon"   href="elementos/favicon.png" type="image/png" />
-
-</head>
-<body>
-
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html lang="es" >
-
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    
-    <title>Red Ciudadana</title>
-
+<head>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
+    <title>Red Ciudadana</title>
+    <link rel="stylesheet" href="style.css">
+    <link  rel="icon"   href="elementos/redciudadana.png" type="image/png" />  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
+    <div class="body-container">
+        <video autoplay muted loop>
+            <source src="elementos/FONDO LINKTREE RED.mp4" type="video/mp4" />
+        </video>
+ 
+        <div class="container full-content">
+            <div class="col-lg-12">
+                <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
+                    <img class="backdrop linktree">
+                </div>
+                <div class="text-center">
+                    <p style="color: #fff">@RedxGuate</p>
+                    <p style="color: #fff">Por una Guatemala más democrática, innovadora y transparente</p>
 
-    <div class="container">
-        <div class="col-xs-12">
-            <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-                <img class="backdrop linktree">
+                </div>
+                <div class="text-center" style="margin-top: 2rem!important;">
+                    <!-- Empadronamiento -->
+                    <div style="padding-bottom: 30px;">
+                        <button onclick="window.open('https://nuestraeleccion.gt/empadronamiento/index.html','_blank')" type="button" class="btn btn-outline-light more_button" ><img src="elementos/LINKTREE-14.png">#Faltan2Millones de jovenes - Empadronamiento</button>
+                    </div>
+    
+                    <!-- Curso de Justicia Abierta -->
+                    <div style="padding-bottom: 30px;">
+                        <button onclick="window.open('https://bit.ly/3rQ6dSJ','_blank')" type="button" class="btn btn-outline-light more_button" ><img src="elementos/LINKTREE-13.png">Curso: Justicia Abierta Guatemala</button>
+                    </div>
+    
+                    <!-- Pagina Web Red Ciudadana -->
+                    <div style="padding-bottom: 30px;">
+                        <button onclick="window.open('https://bit.ly/RedCiudadanaGT','_blank')" type="button" class="btn btn-outline-light more_button"><img src="elementos/LINKTREE-12.png">Pagina Web [Nueva]</button>
+                    </div>
+    
+                    <!-- Catálogo de Trámites -->
+                    <div style="padding-bottom: 30px;">
+                        <button onclick="window.open('http://www.tramites.gob.gt/','_blank')" type="button" class="btn btn-outline-light more_button"><img src="elementos/ICONOS/06.png">Catálogo de Trámites Guatemala [Nuevo]</button>
+                    </div>
+    
+                    <!-- AbreAlcaldias -->
+                    <div style="padding-bottom: 30px;">
+                        <button onclick="window.open('https://bit.ly/ImpactaLatamToC','_blank')" type="button" class="btn btn-outline-light more_button"><img src="elementos/ICONOS/01.png">Municipios más abiertos, innovadores y participativos - AbreAlcaldias</button>
+                    </div>
+                </div>
 
+                <div style="margin-top: 2rem;">
+                    <div class="text-center">
+                        <p style="color: #fff;">Asociación Red Ciudadana</p>
+                    </div>
+                
+                    <div class="col-xs-12" >
+                        <div class="text-center ">
+                            <a href="https://www.facebook.com/Redciudadanagt/" class="text-white redes" target="_blank"><img src="elementos/LINKTREE-08.png"></a>
+                            <a href="https://twitter.com/redxguate?lang=es" class="text-white redes" target="_blank"><img src="elementos/LINKTREE-09.png"></a>
+                            <a href="https://www.instagram.com/redxguate/" class="text-white redes" target="_blank"><img src="elementos/LINKTREE-10.png"></a>
+                            <a href="https://www.youtube.com/channel/UCQwc62j7beStZYFzwPxBEQg " class="text-white redes" target="_blank"><img src="elementos/LINKTREE-11.png"></a>
+                            <!--a href="https://medium.com/redciudadana" class="text-white redes" target="_blank"><i style="padding:4px 5px 3px 5px"><img src="elementos/iconos/Medium.png" style="width:18px;height:16px"></i></a-->
+                        </div>
+                    </div>
+                </div>
+    
             </div>
+        
         </div>
+
     </div>
-
-    <div class="container">
-        <div class="col-xs-12">
-            <div class="text-center">
-
-            	    <div class="text-center">
-        				<p style="color: #fff">@RedxGuate</p>
-        				<p style="color: #fff">+Participación +Ciudadania +Democracia</p>
-
-    				</div>
-            	  <!-- Empadronamiento -->
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="window.open('https://nuestraeleccion.gt/empadronamiento/index.html','_blank')" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/01.png" style="padding-right:30px">#Faltan2Millones de jovenes - Empadronamiento</button>
-                </div>
-
-                <!-- Curso de Justicia Abierta -->
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="window.open('https://bit.ly/3rQ6dSJ','_blank')" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/06.png" style="padding-right:30px">Curso: Justicia Abierta Guatemala</button>
-                </div>
-
-                <!-- Pagina Web Red Ciudadana -->
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="window.open('https://bit.ly/RedCiudadanaGT','_blank')" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/05.png" style="padding-right:30px">Pagina Web [Nueva]</button>
-                </div>
-
-            	<!-- Catálogo de Trámites -->
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="window.open('http://www.tramites.gob.gt/','_blank')" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/06.png" style="padding-right:30px">Catálogo de Trámites Guatemala [Nuevo]</button>
-                </div>
-
-            	<!-- AbreAlcaldias -->
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="window.open('https://bit.ly/ImpactaLatamToC','_blank')" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/01.png" style="padding-right:30px">Municipios más abiertos, innovadores y participativos - AbreAlcaldias</button>
-                </div>
-
-
-            	
-
-            	<!-- EleccionMP 
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://bit.ly/3OoZYhu'" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/06.png" style="padding-right:30px">¡Participa en la evaluación de la plataforma pnd.gt!</button>
-                </div>-->
-
-
-            	<!-- PND.GT 
-
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://eleccionmp.redciudadana.org/'" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/06.png" style="padding-right:30px">Monitoreo de Elección de Fiscal del MP #EleccionMP</button>
-                </div>-->
-
-    			<!-- Indice de Datos Abiertos 2021 
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://redciudadana.org/datosabiertos'" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/04.png" style="padding-right:30px">Presentación del Indice de Datos Abiertos 2021</button>
-                </div>-->
-
-                <!-- ImpactaLatam 
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://bit.ly/ImpactaLatamToC'" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/01.png" style="padding-right:30px">ImpactaLatam (Evaluación de Impacto)</button>
-                </div>-->
-
-                <!-- Gobierno Abierto 
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://bit.ly/PropuestasGA'" type="button" class="btn btn-outline-light text-center break-word" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/06.png" style="padding-right:30px">Participa en el 5to Plan de Gobierno Abierto</button>
-                </div>-->
-
-                <!-- Gobierno Digital 
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://bit.ly/GobiernoDigitalGT'" type="button" class="btn btn-outline-light text-left" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/03.png" style="padding-right:30px">Gobierno Digital</button>
-                </div>-->
-
-                <!-- Donaciones Red Ciudadana
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://bit.ly/HazTuDonacionRC'" type="button" class="btn btn-outline-light text-left" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/08.png" style="padding-right:30px">Haz tu donación</button>
-                </div>-->
-
-                <!-- Voluntarios Red Ciudadana
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://bit.ly/SumateRC'" type="button" class="btn btn-outline-light text-center" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/09.png" style="padding-right:30px">Súmate a la Red (Voluntariado)</button>
-                </div>-->
-
-                <!-- Oportunidades Red Ciudadana
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://bit.ly/OportunidadesRC'" type="button" class="btn btn-outline-light text-left" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/10.png" style="padding-right:30px">Únete al equipo (Oportunidades)</button>
-                </div>-->
-
-                <!-- Estrategia Red Ciudadana 2021-2025 
-                <div style="padding-bottom: 30px;">
-                    <button id="b1" onclick="location.href='https://bit.ly/EstrategiaRC'" type="button" class="btn btn-outline-light text-left" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><img src="elementos/ICONOS/11.png" style="padding-right:30px">Estrategia 2021-2025</button>
-                </div>-->
-
-            </div>
-        </div>
-    </div>
-
-    <div class="col-xs-12" >
-        <div class="text-center ">
-            <a href="https://www.facebook.com/Redciudadanagt/" class="text-white redes" target="_blank"><i class="fab fa-facebook-f" style="padding:4px 5px 3px 5px"></i></a>
-            <a href="https://twitter.com/redxguate?lang=es" class="text-white redes" target="_blank"><i class="fab fa-twitter" style="padding:4px 5px 3px 5px"></i></a>
-            <a href="https://www.instagram.com/redxguate/" class="text-white redes" target="_blank"><i class="fab fa-instagram" style="padding:4px 5px 3px 5px"></i></a>
-            <a href="https://www.youtube.com/channel/UCQwc62j7beStZYFzwPxBEQg " class="text-white redes" target="_blank"><i class="fab fa-youtube" style="padding:4px 5px 3px 5px"></i></a>
-            <a href="https://medium.com/redciudadana" class="text-white redes" target="_blank"><i style="padding:4px 5px 3px 5px"><img src="elementos/iconos/Medium.png" style="width:18px;height:16px"></i></a>
-        </div>
-    </div>
-
-    <div class="text-center">
-        <p style="color: #fff;padding-bottom:3rem!important">Asociación Red Ciudadana</p>
-    </div>
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
